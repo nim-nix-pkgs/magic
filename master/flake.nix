@@ -11,6 +11,7 @@
   inputs.src-magic-master.ref   = "refs/heads/master";
   inputs.src-magic-master.owner = "xmonader";
   inputs.src-magic-master.repo  = "nim-magic";
+  inputs.src-magic-master.dir   = "";
   inputs.src-magic-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
